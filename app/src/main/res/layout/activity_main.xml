@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent" android:layout_height="200dp" android:src="@drawable/yosephine"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="NIM : A11.2020.12685" android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent" android:layout_height="wrap_content" android:text="NAMA : Yosephine Elisaujana Narwasthu" android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ALAMAT : Tirtoyoso 1 No 33" android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent" android:layout_height="wrap_content" android:text="HOBI : Travelling" android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent" android:layout_height="wrap_content" android:text="DESKRIPSI : Perkenalkan nama saya Yosephine Elisaujana Narwasthu. Panggilan saya Yosephine. Saya berusia 20 tahun. Saya lahir di Semarang, 3 Juli 2002. Rumah saya di Jalan Tirtoyoso 1 No 33. Saya berkuliah di Universitas Dian Nuswantoro Semarang. Fakultas Ilmu Komputer. Prodi Teknik Informatika. Saya mahasiswa semester 5. Salam kenal." android:textSize="20sp"/>
+    <Button
+        android:layout_width="match_parent" android:layout_height="wrap_content" android:text="NO TELEPON" android:onClick="cellphone"/>
+    <Button
+        android:layout_width="match_parent" android:layout_height="wrap_content" android:text="KIRIM EMAIL" android:onClick="email"/>
+    <Button
+        android:layout_width="match_parent" android:layout_height="wrap_content" android:text="BUKA ALAMAT di MAPS" android:onClick="showMap"/>
+
+</LinearLayout>
